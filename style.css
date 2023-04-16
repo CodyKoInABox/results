@@ -168,3 +168,36 @@ p{
     width: 220px;
     color: #c5cae2;
 }
+@media(max-width: 700px){
+    .content{
+        top: 0;
+        left: 0;
+        margin: 0px;
+        width: 100vw;
+    }
+    .component{
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+    }
+    .componentLeft{
+        height: 450px;
+        width: 100vw;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    .componentRight{
+        height: 450px;
+        width: 100vw;
+        align-items: center;
+    }
+    .summary{
+        margin-left: 0px;
+    }
+    .summaryItem {
+        margin-left: 0px;
+    }
+    .continue{
+        margin-left: 0px;
+    }
+}
