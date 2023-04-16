@@ -91,6 +91,7 @@ p{
     cursor: pointer;
     transform: scale(1.025);
     transition: .2s;
+    background-image: linear-gradient(to top, #2e2be9, #7857ff);
 }
 .continue:active{
     transform: scale(1);
