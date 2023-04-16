@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px; /* -1/2 width */
+    margin-top: -250px; /* -1/2 height */
+}
+.component{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    box-shadow: 2px 10px 35px rgb(0, 0, 0, .125);
+    border-radius: 40px;
+}
+.componentLeft{
+    width: 350px;
+    background-image: linear-gradient(to top, #2e2be9, #7857ff);
+    border-radius: 40px;
+    
+}
+.componentRight{
+
+}
