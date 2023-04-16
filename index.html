@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <link rel="stylesheet" href="style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
   
   <title>Results summary component | Frontend Mentor</title>
 
@@ -14,11 +17,40 @@
 <body>
 
   <div class="content">
-    
+
     <div class="component">
 
-      <div class="componentLeft"></div>
-      <div class="componentRight"></div>
+      <div class="componentLeft">
+
+      </div>
+
+
+      <div class="componentRight">
+        <div class="summary">Summary</div>
+        <div class="summaryItemsContainer">
+        <div class="summaryItem reaction">
+          <div class="summaryItemContent">
+            <span class="summaryItemNameContainer"><span class="material-symbols-outlined">bolt</span><p class="summaryItemName">Reaction</p></span><p class="summaryItemValue">80 <span class="summaryItemValueTotal">/ 100</span></p>
+          </div>
+        </div>
+        <div class="summaryItem memory">
+          <div class="summaryItemContent">
+            <span class="summaryItemNameContainer"><span class="material-symbols-outlined">neurology</span><p class="summaryItemName">Memory</p></span><p class="summaryItemValue">92 <span class="summaryItemValueTotal">/ 100</span></p>
+          </div>
+        </div>
+        <div class="summaryItem verbal">
+          <div class="summaryItemContent">
+            <span class="summaryItemNameContainer"><span class="material-symbols-outlined">voice_chat</span><p class="summaryItemName">Verbal</p></span><p class="summaryItemValue">61 <span class="summaryItemValueTotal">/ 100</span></p>
+          </div>
+        </div>
+        <div class="summaryItem visual">
+          <div class="summaryItemContent">
+            <span class="summaryItemNameContainer"><span class="material-symbols-outlined">visibility</span><p class="summaryItemName">Visual</p></span><p class="summaryItemValue">72 <span class="summaryItemValueTotal">/ 100</span></p>
+          </div>
+        </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
 
   
 
